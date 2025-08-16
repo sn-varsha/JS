@@ -1,0 +1,19 @@
+let a={
+    name:"BMW",
+    cost:75.6,
+    mileage:8.6,
+    start:function(){
+        console.log("Starting..");
+    },
+    stop:function(){
+        console.log("Stopping..");
+    },
+    accelerate:function(){
+        console.log("Accelerating..");
+    }
+};
+console.log(a.name);
+console.log(a.cost);
+a.start();
+a.accelerate();
+a.stop();
