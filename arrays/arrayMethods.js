@@ -25,3 +25,8 @@ console.log(ar);
 
 ar.splice(1, 0, 50);  //add element at the specified index
 console.log(ar);
+
+let a = [10, 20, 30, 20];
+console.log(a.indexOf(20));     //return the index of the element
+console.log(a.lastIndexOf(20)); //return the index of the element from the last
+console.log(a.includes(433));   //return true if the element is present in the array else false
